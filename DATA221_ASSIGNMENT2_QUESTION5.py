@@ -30,7 +30,7 @@ grade_band_labels = ["Low", "Medium", "High"]
 data_frame_of_students["grade_band"] = np.select(conditions_for_grade_band, grade_band_labels, default=None)
 
 # Create a grouped summary table
-summary = (
+summary_table_of_students_by_grade_bands = (
     # Using the data frame of students, aggregate new table values
     data_frame_of_students.groupby("grade_band").agg(
         # Assign the number of students in this grade band
@@ -43,4 +43,4 @@ summary = (
 )
 
 # Convert our grouped summary table into a csv file called student_bands.csv
-summary.to_csv('student_bands.csv')
+summary_table_of_students_by_grade_bands.to_csv('student_bands.csv')
