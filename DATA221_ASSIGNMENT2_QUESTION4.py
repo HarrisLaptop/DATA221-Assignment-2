@@ -5,14 +5,9 @@
 # Import the pandas package using the alias pd
 import pandas as pd
 
-# Open the student.csv file in read mode
-student_file = open("student.csv", "r")
-
 # Read the contents of the csv file using the pandas package to convert the data into a dataframe
-data_frame_of_students = pd.read_csv(student_file)
+data_frame_of_students = pd.read_csv("student.csv")
 
-# Close the student file as we no longer need to use it
-student_file.close()
 
 # Filter the students we want to include in the new file according to the desired conditions
 data_frame_of_students = data_frame_of_students[data_frame_of_students["studytime"] >= 3]

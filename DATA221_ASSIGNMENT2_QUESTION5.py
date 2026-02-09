@@ -7,14 +7,8 @@ import pandas as pd
 # Import the numpy package using the alias np
 import numpy as np
 
-# Open the student.csv file in read mode
-student_file = open("student.csv", "r")
-
 # Read the contents of the csv file using the pandas package to convert the data into a dataframe
-data_frame_of_students = pd.read_csv(student_file)
-
-# Close the student file as we no longer need to use it
-student_file.close()
+data_frame_of_students = pd.read_csv("student.csv")
 
 # Create the conditions for what grade band label each student will get
 conditions_for_grade_band = [
