@@ -44,5 +44,5 @@ for heading in headings_in_wiki_article:
             and "See also" not in heading_text
             and "Notes" not in heading_text):
 
-        # Write the headings text to the headings.rxt file without the substring "[edit]"
+        # Write the headings text to the headings.txt file without the substring "[edit]"
         headings_file.write(heading_text.replace(remove_substring, "") + "\n")
