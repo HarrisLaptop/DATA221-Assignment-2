@@ -55,7 +55,7 @@ for bigram in list_of_bigrams:
 sorted_frequency_dictionary_of_bigrams = sorted(frequency_dictionary_of_bigrams_in_sample_file.items(), key=lambda x:x[1], reverse=True)
 
 # For the top 5 bigrams with the highest frequency in our sorted dictionary
-for bigram_in_sorted_dictionary in range(0, 10):
+for bigram_in_sorted_dictionary in range(0, 5):
     # Print the bigram followed by an arrow pointing to its respective frequency count
     print(sorted_frequency_dictionary_of_bigrams[bigram_in_sorted_dictionary][0][0],
           sorted_frequency_dictionary_of_bigrams[bigram_in_sorted_dictionary][0][1], "-->",
