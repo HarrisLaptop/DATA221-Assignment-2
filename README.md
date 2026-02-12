@@ -1,6 +1,6 @@
 # Notes:
-- The .txt and .csv files are also listed in this Git repository, as these are the files that are required for some of the programs to function as intended.
-- Any files that are created using the programs have not been added here.
+- The given .txt and .csv files are also listed in this Git repository, as these are the files that are required for some of the programs to function as intended.
+- The files created by the programs have also been listed here in this Git repository.
 
 # Question 1:
 - This program reads the text content from sample-file.txt and splits the lines into tokens (words), then prints the most frequent words in the program and the number of times they appeared.
