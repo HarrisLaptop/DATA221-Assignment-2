@@ -2,6 +2,11 @@
 # February 7, 2026
 # DATA221, Assignment 2, Question 10
 
+# NOTE: Since the instructions for the question specify that the function should search for the keyword "lorem"
+# within the sample-file.txt, which doesn't show up anywhere, the function says that 0 words were found with this
+# keyword. As a result, no lines are printed. However, you may test this program by replacing the keyword lorem
+# with something else if you wish.
+
 # Define a function that takes in a file and a keyword and returns the lines containing that keyword
 def find_lines_containing(filename, keyword):
     
