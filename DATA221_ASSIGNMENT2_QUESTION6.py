@@ -7,6 +7,7 @@ import pandas as pd
 # Import the numpy package using the alias np
 import numpy as np
 
+# Read the csv file and store it as a dataframe in this variable
 data_frame_of_crime_stats = pd.read_csv("crime.csv")    
 
 # Create the conditions for what grade band label each student will get
