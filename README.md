@@ -35,7 +35,7 @@
 
 # Question 8:
 - Using the requests and beautiful soup packages, this program scrapes the same Wikipedia page on Data Science.
-- The program extracts all <h2> section headers and saves them to a headings.txt file, except for headers containing the words: References, External links, See also, and Notes.
+- The program extracts all section headers and saves them to a headings.txt file, except for headers containing the words: References, External links, See also, and Notes.
 - If any of the headings contain the text "[edit]", then the program removes that bit of text from the header before saving it to the txt file.
 
 # Question 9:
